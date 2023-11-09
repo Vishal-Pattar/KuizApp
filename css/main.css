@@ -1,0 +1,120 @@
+/* #F78888 - RED
+#F3D250 - YELLOW
+#ECECEC - GREY
+#90CCF4 - LIGHT BLUE
+#5DA2D5 - DARK BLUE */
+
+:root {
+    --tem-red: #F78888;
+    --tem-yellow: #F3D250;
+    --tem-grey: #ECECEC;
+    --tem-light-blue: #90CCF4;
+    --tem-dark-blue: #5DA2D5;
+    --lg-light-orange: #FAB042;
+    --lg-dark-orange: #E08216;
+    --lg-light-green: #03A79D;
+    --lg-dark-green: #036861;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#main-div
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: var(--tem-yellow); */
+    background-color: #dfdfdf;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+}
+#head-bar
+{
+    height: 15vh;
+    width: 100vw;
+    background-color: var(--tem-grey);
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    z-index: 999;
+}
+#head-logo-img
+{
+    height: 10vh;
+    background-color: #ffffff00;
+    position: absolute;
+    top: 2.5vh;
+    left: 1vw;
+}
+#head-logo-title
+{
+    font-size: 7.5vh;
+    position: absolute;
+    top: 3.5vh;
+    left: 7.5vw;
+}
+.head-one-title
+{
+    font-family: 'Cooper', sans-serif;
+    background-color: #00000000;
+    user-select: none;
+    cursor: pointer;
+}
+.head-one-title:nth-child(1)
+{
+    color: var(--lg-light-green);
+}
+.head-one-title:nth-child(2)
+{
+    color: var(--lg-light-orange);
+}
+
+#head-menu-bar
+{
+    height: 5vh;
+    width: auto;
+    background-color: #F3D25000;
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.75vh;
+    text-align: right;
+    line-height: 5vh;
+    user-select: none;
+}
+.head-menu-digit
+{
+    color: #000000;
+    cursor: pointer;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 10px;
+}
+.head-menu-digit a
+{
+    text-decoration: none;
+    color: #000000;
+}
+.head-menu-digit:hover
+{
+    color: var(--tem-grey);
+    background-color: var(--lg-light-green);
+}
+.head-menu-digit:hover a
+{
+    color: var(--tem-grey);
+    background-color: var(--lg-light-green);
+}
+#fir-back
+{
+    height: 70vh;
+    width: 70vh;
+    position: absolute;
+    top: 22vh;
+    left: 5vw;
+}

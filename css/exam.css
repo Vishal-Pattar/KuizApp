@@ -1,0 +1,178 @@
+@import '/css/main.css';
+@import '/css/root.css';
+
+#main-div
+{
+    background-color: var(--tem-light-blue);
+}
+#num-box
+{
+    height: 18vh;
+    width: 44vw;
+    background-color: var(--lg-light-orange);
+    position: absolute;
+    top: 18vh;
+    left: 28vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nb
+{
+    padding: 1vh;
+    margin: 2vh;
+    background-color: var(--tem-grey);
+    user-select: none;
+    cursor: pointer;
+}
+.nb:hover
+{
+    background-color: var(--tem-light-blue);
+    color: #ffffff;
+}
+#quest-box
+{
+    height: 40vh;
+    width: 50vw;
+    position: absolute;
+    top: 40vh;
+    left: 25vw;
+    background-color: var(--tem-grey);
+}
+#quno
+{
+    height: 10vh;
+    width: 3vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--tem-red);
+    text-align: center;
+    font-size: 3vh;
+    color: #ffffff;
+}
+#ques
+{
+    height: 10vh;
+    width: 47vw;
+    position: absolute;
+    top: 0;
+    left: 3vw;
+    background-color: var(--tem-red);
+    font-size: 3vh;
+    text-indent: 2vh;
+    color: #ffffff;
+}
+#ques-opt
+{
+    height: 30vh;
+    width: 50vw;
+    position: absolute;
+    top: 10vh;
+    left: 0vw;
+    background-color: var(--tem-grey);
+}
+.all-butt
+{
+    height: 7vh;
+    width: 50vw;
+    margin-top: 0.5vh;
+    position: relative;
+    background-color: var(--tem-yellow);
+}
+.but-opt-label
+{
+    height: 5vh;
+    width: 47vw;
+    position: absolute;
+    top: 1vh;
+    left: 1.5vw;
+    background-color: var(--tem-grey);
+    cursor: pointer;
+}
+.but-opt
+{
+    height: 3.5vh;
+    width: 3.5vh;
+    position: relative;
+    top: 0.75vh;
+    left: 0.5vw;
+    background-color: var(--tem-grey);
+    appearance: none;
+    border: 2px solid var(--tem-red);
+}
+.but-opt:checked
+{
+    content: "";
+    height: 3.5vh;
+    width: 3.5vh;
+    background-color: var(--tem-dark-blue);
+    border: 0.8vh solid var(--tem-red);
+}
+.but-opt-text
+{   
+    font-size: 2.5vh;
+    height: 5vh;
+    width: 10vw;
+    padding: 1vh;
+    margin-left: 1vw;
+    background-color: var(--tem-grey);
+    user-select: none;
+    cursor: pointer;
+}
+#pvnt
+{
+    height: 5vh;
+    width: 30vw;
+    position: absolute;
+    top: 85vh;
+    left: 35vw;
+    background-color: var(--tem-light-blue);
+}
+.prxt
+{
+    user-select: none;
+    cursor: pointer;
+    line-height: 5vh;
+    font-size: 2.5vh;
+    color: #ffffff;
+    background-color: var(--tem-red);
+    padding: 0vh 2.5vh;
+    position: absolute;
+    border: none;
+}
+#prev
+{
+    left: 0vw;
+}
+#rese
+{
+    left: 12.5vw;
+}
+#next
+{
+    right: 0vw;
+}
+#smbt-row
+{
+    height: 5vh;
+    width: 6vw;
+    position: absolute;
+    top: 92.5vh;
+    left: 47vw;
+    background-color: var(--tem-dark-blue);
+}
+#smbt
+{
+    user-select: none;
+    cursor: pointer;
+    line-height: 5vh;
+    font-size: 2.5vh;
+    color: #ffffff;
+    background-color: var(--tem-red);
+    padding: 0vh 2.5vh;
+    position: absolute;
+}
+/* /////////////////////////// */
+

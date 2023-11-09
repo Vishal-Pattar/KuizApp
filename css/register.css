@@ -1,0 +1,139 @@
+:root {
+    --tem-red: #F78888;
+    --tem-yellow: #F3D250;
+    --tem-grey: #ECECEC;
+    --tem-light-blue: #90CCF4;
+    --tem-dark-blue: #5DA2D5;
+    --lg-light-orange: #FAB042;
+    --lg-dark-orange: #E08216;
+    --lg-light-green: #03A79D;
+    --lg-dark-green: #036861;
+}
+#main-div
+{
+    background-color: var(--tem-light-blue);
+}
+#form-regist
+{
+    height: 70vh;
+    width: 30vw;
+    border: 0.4vh solid #ffffff;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    background-color: #03686100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#form-area
+{
+    height: 85vh;
+    width: 40vw;
+    position: absolute;
+    top: 15vh;
+    right: 30vw;
+    background-color: #00000000;
+}
+.l-ele
+{
+    height: 5.5vh;
+    width: 20.25vw;
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+    margin-bottom: 3vh;
+}
+.f-ele
+{
+    height: 5vh;
+    width: 20vw;
+    background-color: var(--tem-light-blue);
+    color: #ffffff;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    font-size: 2.25vh;
+    -webkit-appearance: none;
+    outline: none;
+    border: 0.25vh solid #ffffff;
+    text-indent: 1.5vh;
+    margin: 0 auto;
+    display: block;
+}
+.f-ele::placeholder
+{
+    color: #ffffff;
+}
+.r-ele
+{
+    font-size: 1.5vh;
+    color: #ff0000;
+    position: absolute;
+    top: 5.5vh;
+    left: 0vw;
+    display: block;
+    user-select: none;
+}
+.s-ele
+{
+    padding-left: 1vh;
+    padding-right: 1vh;
+    font-size: 2vh;
+    background-color: var(--tem-light-blue);
+    color: #ffffff;
+    position: relative;
+    top: -1vh;
+    left: 0.4vw;
+    z-index: 2;
+    user-select: none;
+}
+#l-sopt
+{
+    height: 20vh;
+    width: 20.25vw;
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+    margin-bottom: 3vh;
+    border: 0.25vh solid #ffffff;
+    display: none;
+}
+.l-butt
+{
+    height: 5.5vh;
+    width: 10.25vw;
+    background-color: var(--tem-yellow);
+    color: #000000;
+    border: 0.25vh solid #ffffff00;
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+    font-size: 2.25vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+#form-area-link-login
+{
+    position: relative;
+    top: 63vh;
+    left: 0vw;
+    color: #ffffff;
+    background-color: #03686100;
+    text-align: center;
+    display: block;
+}
+#form-area-link-forgot
+{
+    position: relative;
+    top: 65vh;
+    left: 0vw;
+    color: #ffffff;
+    background-color: #03686100;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+#form-area-link-login a, #form-area-link-forgot a
+{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,104 @@
+@import '/css/main.css';
+@import '/css/root.css';
+
+#main-div
+{
+    background-color: var(--tem-yellow);
+}
+#score-page
+{
+    height: 75vh;
+    width: 35vw;
+    background-color: var(--tem-light-blue);
+    position: absolute;
+    top: 20vh;
+    right: 2.5vw;
+    color: #000;
+    font-size: 4vh;
+    user-select: none;
+}
+#congo-trophy
+{
+    height: 22vh;
+    width: 19.5vh;
+    background-color: var(--tem-grey);
+    position: absolute;
+    top: 20vh;
+    right: 2.5vw;
+    color: #000;
+    font-size: 4vh;
+    user-select: none;
+}
+#congo-msg
+{
+    height: 10vh;
+    width: 35vw;
+    position: absolute;
+    top: 2vh;
+    left: 0vw;
+    color: var(--tem-grey);
+    /* background-color: aqua; */
+    font-size: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10vh;
+    text-align: center;
+}
+#user-name
+{
+    height: 6vh;
+    width: 27vw;
+    position: absolute;
+    top: 16vh;
+    left: 4vw;
+    color: var(--tem-yellow);
+    /* background-color: aqua; */
+    font-size: 6vh;
+    line-height: 6vh;
+    text-align: center;
+    border: 2px solid var(--tem-grey);
+}
+#score-ls
+{
+    height: 10vh;
+    width: 16vw;
+    position: absolute;
+    top: 25vh;
+    right: 9.5vw;
+    color: var(--tem-grey);
+    font-size: 6vh;
+    line-height: 6vh;
+    /* background-color: aqua; */
+    text-align: center;
+}
+#score-box
+{
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    top: 35vh;
+    right: 9.5vw;
+    background-color: #ffffff00;
+    border-radius: 100%;
+    border: 1.5vh solid var(--tem-grey);
+}
+#num-score
+{
+    height: 9vh;
+    width: 4.5vw;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    color: var(--tem-grey);
+    font-size: 8vh;
+    border-bottom: 1vh solid var(--tem-grey);
+}
+#den-score
+{
+    height: 9vh;
+    width: 4.5vw;
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+    color: var(--tem-grey);
+    font-size: 8vh;
+}

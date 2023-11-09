@@ -1,0 +1,96 @@
+@import "/css/root.css";
+@import "/css/main.css";
+
+#main-div
+{
+    background-color: var(--tem-light-blue);
+}
+#info-page
+{
+    height: 75vh;
+    width: 30vw;
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    background-color: var(--tem-yellow);
+    color: #ffffff;
+    /*border: 0.4vh solid #ffffff;*/
+}
+.info-page-div
+{
+    position: relative;
+    top: 5vh;
+    left: 0vw;
+    background-color: darkgreen;
+}
+.info-page-cen
+{
+    text-align: center;
+    display: block;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+#wel-come
+{
+    position: relative;
+    left: 0vw;
+    font-size: 4vh;
+    text-align: center;
+    display: block;
+}
+#var-name
+{
+    position: relative;
+    font-size: 2.5vh;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+#var-name span
+{
+    justify-content: center;
+    padding: 1vh;
+    background-color: var(--tem-red);
+}
+#re-gist
+{
+    position: relative;
+    left: 0vw;
+    text-align: center;
+    display: block;
+    margin-top: 1vh;
+}
+.hr
+{
+    position: relative;
+    background-color: #ffffff;
+    outline: none;
+    height: 0.3vh;
+    border: none;
+}
+#quizzes a
+{
+    height: auto;
+    width: 30vw;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.quiz-block
+{
+    min-width: 12vw;
+    position: relative;
+    padding: 1vh;
+    background-color:var(--tem-red);
+    margin: 2vh auto 2vh auto;
+    user-select: none;
+    cursor: pointer;
+}
+.cont3
+{
+    margin-left: 6vw;
+}
